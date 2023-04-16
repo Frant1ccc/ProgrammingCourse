@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/admin/CLionProjects/untitled/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled: phony || cmake_object_order_depends_target_algoritms cmake_object_order_depends_target_string cmake_object_order_depends_target_structures
 
-build CMakeFiles/untitled.dir/10.c.obj: C_COMPILER__untitled_Debug C$:/Users/admin/CLionProjects/untitled/10.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\10.c.obj.d
+build CMakeFiles/untitled.dir/main.c.obj: C_COMPILER__untitled_Debug C$:/Users/admin/CLionProjects/untitled/main.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\main.c.obj.d
   FLAGS = -g -std=gnu11
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
@@ -63,7 +63,7 @@ build CMakeFiles/untitled.dir/10.c.obj: C_COMPILER__untitled_Debug C$:/Users/adm
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/10.c.obj | libs/algoritms/libalgoritms.a libs/structures/libstructures.a libs/string/libstring.a || libs/algoritms/libalgoritms.a libs/string/libstring.a libs/structures/libstructures.a
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj | libs/algoritms/libalgoritms.a libs/structures/libstructures.a libs/string/libstring.a || libs/algoritms/libalgoritms.a libs/string/libstring.a libs/structures/libstructures.a
   FLAGS = -g
   LINK_LIBRARIES = libs/algoritms/libalgoritms.a  libs/structures/libstructures.a  libs/string/libstring.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir

@@ -3,7 +3,7 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled "10.c")
+add_executable(untitled "main.c")
 
 add_subdirectory(libs)
 add_library(str libs/string/string_.h libs/string/string_.c)
