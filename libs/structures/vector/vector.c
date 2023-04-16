@@ -71,3 +71,20 @@ void popBack(Vector *v) {
     }
     v->size--;
 }
+
+int *atVector(Vector *v, size_t index) {
+    if (index > v->size) {
+        fprintf(stderr, "IndexError: a[%llu] is not exists", index);
+        exit(1);
+    }
+
+    return v->data + index;
+}
+
+int *back(Vector *v) {
+    return v->data + v->size - 1;
+}
+
+int *front(Vector *v) {
+    return v->data;
+}
