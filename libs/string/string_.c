@@ -3,6 +3,7 @@
 //
 
 #include "string_.h"
+#include <malloc.h>
 
 // возвращает количество символов строки
 int strLen_(const char *begin) {

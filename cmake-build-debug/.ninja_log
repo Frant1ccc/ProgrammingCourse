@@ -1,14 +1,14 @@
 # ninja log v5
 2	330	6852061373462969	CMakeFiles/untitled.dir/main.c.obj	ba2259ac72db69a1
 2	190	6852092023296040	CMakeFiles/untitled.dir/513A.c.obj	b17da52aff05c1f9
-16	309	7009383099026134	libs/string/libstring.a	954259bd6836929d
+1625	1756	7033546647475417	libs/string/libstring.a	954259bd6836929d
 2	422	6914533584376947	CMakeFiles/untitled.dir/8_palindrom.c.obj	6df4b6fc6bca857d
 278	839	7003363257705248	untitled.exe	b72228a8acb9e1dc
-14	1454	7009382965688507	libs/string/CMakeFiles/string.dir/string_.c.obj	d2e6c1488dfed1a1
+1	231	7033548293149544	build.ninja	1f42602defdb2b22
 1	501	6967663341996001	CMakeFiles/untitled.dir/9.c.obj	54ff2f5ad4195818
-1	939	6888805414101015	CMakeFiles/untitled.dir/13.c.obj	90805237e0f2a2e2
+1451	1625	7033546646165342	libs/string/CMakeFiles/string.dir/string_.c.obj	d2e6c1488dfed1a1
 3	161	6994959819095119	CMakeFiles/untitled.dir/1.c.obj	70e823397d4a809c
-1	231	7009411434786846	build.ninja	1f42602defdb2b22
+1	939	6888805414101015	CMakeFiles/untitled.dir/13.c.obj	90805237e0f2a2e2
 3	165	6913675957881695	CMakeFiles/untitled.dir/4_get_first_negative.c.obj	427e132442d56d24
 2	169	6913567776482787	CMakeFiles/untitled.dir/1_input.c.obj	10cea8cc90fceb6
 2	162	6857357776263343	CMakeFiles/untitled.dir/581AGG.c.obj	71b88803dc4249fc
@@ -20,7 +20,7 @@
 4	618	6967986209273440	CMakeFiles/untitled.dir/8.c.obj	3daeb9770326aae3
 3	95	6914395779014947	CMakeFiles/untitled.dir/6_number_of_negative.c.obj	9dca8d33fc7e1959
 2	94	6879011753182111	CMakeFiles/untitled.dir/16.c.obj	fff1e18d01eaa02a
-3	336	6993983317697265	CMakeFiles/untitled.dir/10.c.obj	e35a795bdd83396c
+3	1550	7033546645375296	CMakeFiles/untitled.dir/10.c.obj	e35a795bdd83396c
 3	1817	6922226667181061	CMakeFiles/untitled.dir/555.c.obj	87de4b449f4f4d1f
 7	296	6997337108832733	CMakeFiles/untitled.dir/2.c.obj	49d25799fc00b45
 2	558	6914379180535569	CMakeFiles/untitled.dir/5_get_even_last.c.obj	a34eb03986115f90
@@ -47,7 +47,7 @@
 3	213	6914968073870692	CMakeFiles/untitled.dir/9_selection.c.obj	8aeb1afa502effa7
 0	237	6914980787887892	CMakeFiles/untitled.dir/11_insert.c.obj	1636a302d2211957
 2	157	6914984510450811	CMakeFiles/untitled.dir/12_add_to_end.c.obj	5a9f652047b7e3f3
-162	682	6984289931319622	libs/structures/libstructures.a	e2cc3306bd042d8a
+439	1451	7033546644435243	libs/structures/libstructures.a	8b3e51244c171aca
 2	177	6914986878656264	CMakeFiles/untitled.dir/13_delete_preserving.c.obj	3fac1837a1cb2d6b
 2	135	6934008568728260	CMakeFiles/untitled.dir/fractionA.c.obj	fb1389f257944de9
 2	177	6934039695267385	CMakeFiles/untitled.dir/input_and_output.c.obj	2d9f23f8fa453237
@@ -61,3 +61,16 @@
 4	604	6955845170709814	libs/structures/CMakeFiles/structures.dir/structures.c.obj	dd9deceb4ab322a7
 4	161	6984289926109324	libs/structures/CMakeFiles/structures.dir/matrix/matrix.c.obj	50c277712fac7356
 3	429	6997423297738328	CMakeFiles/untitled.dir/18.c.obj	acfe50c32e2d57ea
+6	438	7033546634224659	libs/structures/CMakeFiles/structures.dir/vector/vector.c.obj	8d3e77845e2b962
+4	207	7033583440519858	CMakeFiles/untitled.dir/10.c.obj	e35a795bdd83396c
+36	313	7033583441579919	libs/structures/CMakeFiles/structures.dir/vector/vector.c.obj	8d3e77845e2b962
+207	349	7033583441939940	libs/string/CMakeFiles/string.dir/string_.c.obj	d2e6c1488dfed1a1
+313	557	7033583444030059	libs/structures/libstructures.a	8b3e51244c171aca
+349	576	7033583444220070	libs/string/libstring.a	954259bd6836929d
+576	816	7033583446560204	untitled.exe	c2dd58babffc40f2
+3	145	7033583631990810	CMakeFiles/untitled.dir/10.c.obj	e35a795bdd83396c
+147	254	7033583633020869	untitled.exe	c2dd58babffc40f2
+8	315	7033585369830209	libs/structures/CMakeFiles/structures.dir/vector/vector.c.obj	8d3e77845e2b962
+4	405	7033585370400241	CMakeFiles/untitled.dir/10.c.obj	e35a795bdd83396c
+316	518	7033585371890326	libs/structures/libstructures.a	8b3e51244c171aca
+518	680	7033585373390412	untitled.exe	c2dd58babffc40f2

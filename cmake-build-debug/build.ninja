@@ -104,6 +104,37 @@ build libstr.a: C_STATIC_LIBRARY_LINKER__str_Debug CMakeFiles/str.dir/libs/strin
   TARGET_FILE = libstr.a
   TARGET_PDB = str.a.dbg
 
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target vector
+
+
+#############################################
+# Order-only phony target for vector
+
+build cmake_object_order_depends_target_vector: phony || CMakeFiles/vector.dir
+
+build CMakeFiles/vector.dir/libs/structures/vector/vector.c.obj: C_COMPILER__vector_Debug C$:/Users/admin/CLionProjects/untitled/libs/structures/vector/vector.c || cmake_object_order_depends_target_vector
+  DEP_FILE = CMakeFiles\vector.dir\libs\structures\vector\vector.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\vector.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector.dir\libs\structures\vector
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target vector
+
+
+#############################################
+# Link the static library libvector.a
+
+build libvector.a: C_STATIC_LIBRARY_LINKER__vector_Debug CMakeFiles/vector.dir/libs/structures/vector/vector.c.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\vector.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libvector.a
+  TARGET_PDB = vector.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -240,6 +271,12 @@ build libs/structures/CMakeFiles/structures.dir/matrix/matrix.c.obj: C_COMPILER_
   OBJECT_DIR = libs\structures\CMakeFiles\structures.dir
   OBJECT_FILE_DIR = libs\structures\CMakeFiles\structures.dir\matrix
 
+build libs/structures/CMakeFiles/structures.dir/vector/vector.c.obj: C_COMPILER__structures_Debug C$:/Users/admin/CLionProjects/untitled/libs/structures/vector/vector.c || cmake_object_order_depends_target_structures
+  DEP_FILE = libs\structures\CMakeFiles\structures.dir\vector\vector.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = libs\structures\CMakeFiles\structures.dir
+  OBJECT_FILE_DIR = libs\structures\CMakeFiles\structures.dir\vector
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target structures
@@ -248,7 +285,7 @@ build libs/structures/CMakeFiles/structures.dir/matrix/matrix.c.obj: C_COMPILER_
 #############################################
 # Link the static library libs\structures\libstructures.a
 
-build libs/structures/libstructures.a: C_STATIC_LIBRARY_LINKER__structures_Debug libs/structures/CMakeFiles/structures.dir/structures.c.obj libs/structures/CMakeFiles/structures.dir/matrix/matrix.c.obj
+build libs/structures/libstructures.a: C_STATIC_LIBRARY_LINKER__structures_Debug libs/structures/CMakeFiles/structures.dir/structures.c.obj libs/structures/CMakeFiles/structures.dir/matrix/matrix.c.obj libs/structures/CMakeFiles/structures.dir/vector/vector.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = libs\structures\CMakeFiles\structures.dir
   POST_BUILD = cd .
@@ -357,6 +394,8 @@ build structures: phony libs/structures/libstructures.a
 
 build untitled: phony untitled.exe
 
+build vector: phony libvector.a
+
 # =============================================================================
 # Folder targets.
 
@@ -365,7 +404,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/admin/CLionProjects/untitled/cmake-build-debug
 
-build all: phony untitled.exe libstr.a libs/all
+build all: phony untitled.exe libstr.a libvector.a libs/all
 
 # =============================================================================
 
