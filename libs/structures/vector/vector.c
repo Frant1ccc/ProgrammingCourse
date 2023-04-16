@@ -19,6 +19,7 @@ Vector createVector(size_t n) {
 
 void reserve(Vector *v, size_t newCapacity) {
     if (newCapacity == 0) v->data = NULL;
+
     v->data = (int *) realloc(v->data, sizeof(int) * newCapacity);
     if (v->data == NULL) {
         fprintf(stderr, "Wrong value: newCapacity = %llu", newCapacity);
@@ -69,6 +70,7 @@ void popBack(Vector *v) {
         fprintf(stderr, "Vector is empty");
         exit(1);
     }
+
     v->size--;
 }
 
